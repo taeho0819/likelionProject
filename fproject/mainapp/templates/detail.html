@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
+        <h1>자세한 본문내용입니다.</h1>
+        <br>
+        <br>
+        <h1>제목: {{blogs.title}} </h1>
+        <p>작성 날짜: {{blogs.pub_date}}</p>
+        <p>자세한 본문 : {{blogs.body}}</p>
+{% endblock %}
